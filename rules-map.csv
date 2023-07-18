@@ -1,0 +1,302 @@
+N/A,AOSX-13-000075,os_ir_support_disable,Disable Infrared (IR) support
+V-252436,APPL-12-000001,sysprefs_apple_watch_unlock_disable,Prevent Apple Watch from Terminating a Session Lock
+V-252437,APPL-12-000002,sysprefs_screensaver_password_enforce,Enforce Screen Saver Password
+V-252438,APPL-12-000003,sysprefs_screensaver_ask_for_password_delay_enforce,Enforce Session Lock After Screen Saver is Started
+V-252439,APPL-12-000004,sysprefs_screensaver_timeout_enforce,Enforce Screen Saver Timeout
+V-252440,APPL-12-000005,sysprefs_token_removal_enforce,Configure User Session Lock When a Smart Token is Removed
+V-252441,APPL-12-000006,os_screensaver_loginwindow_enforce,Enforce Screen Saver at Login Window
+V-252442,APPL-12-000007,sysprefs_hot_corners_disable,Disable Hot Corners
+V-252443,APPL-12-000011,sysprefs_ssh_disable,Disable SSH Server for Remote Access Sessions
+V-252444,APPL-12-000012,pwpolicy_temporary_or_emergency_accounts_disable,Automatically Remove or Disable Temporary or Emergency User Accounts within 72 Hours
+V-252445,APPL-12-000014,os_time_server_enabled,Enable Time Synchronization Daemon
+V-252445,APPL-12-000014,sysprefs_time_server_configure,Configure macOS to Use an Authorized Time Server
+V-252445,APPL-12-000014,sysprefs_time_server_enforce,Enable macOS Time Synchronization Daemon (timed)
+V-252446,APPL-12-000015,os_ess_installed,Must Use ESS
+V-252447,APPL-12-000016,os_directory_services_configured,Integrate System into a Directory Services Infrastructure
+V-252448,APPL-12-000022,pwpolicy_account_lockout_enforce,Limit Consecutive Failed Login Attempts to $ODV
+V-252448,APPL-12-000022,pwpolicy_account_lockout_timeout_enforce,Set Account Lockout Time to $ODV Minutes
+V-252449,APPL-12-000023,os_policy_banner_ssh_configure,Display Policy Banner at Remote Login
+V-252450,APPL-12-000024,os_policy_banner_ssh_enforce,Enforce SSH to Display Policy Banner
+V-252451,APPL-12-000025,os_policy_banner_loginwindow_enforce,Display Policy Banner at Login Window
+V-252452,APPL-12-000030,audit_acls_files_configure,Configure Audit Log Files to Not Contain Access Control Lists
+V-252453,APPL-12-000031,audit_acls_folders_configure,Configure Audit Log Folder to Not Contain Access Control Lists
+V-252454,APPL-12-000032,os_filevault_authorized_users,FileVault Authorized Users
+V-252455,APPL-12-000033,os_filevault_autologin_disable,Disable FileVault Automatic Login
+V-252456,APPL-12-000051,os_sshd_client_alive_interval_configure,Configure SSHD ClientAliveInterval to $ODV
+V-252457,APPL-12-000052,os_sshd_client_alive_count_max_configure,Configure SSHD ClientAliveCountMax to $ODV
+V-252458,APPL-12-000053,os_sshd_login_grace_time_configure,Set Login Grace Time to $ODV
+V-252459,APPL-12-000054,os_sshd_fips_140_ciphers,Limit SSHD to FIPS 140 Validated Ciphers
+V-252460,APPL-12-000055,os_sshd_fips_140_macs,Limit SSHD to FIPS 140 Validated Message Authentication Code Algorithms
+V-252461,APPL-12-000056,os_sshd_key_exchange_algorithm_configure,Configure SSHD to Use Secure Key Exchange Algorithms
+V-252462,APPL-12-001001,audit_flags_ad_configure,Configure System to Audit All Administrative Action Events
+V-252463,APPL-12-001002,audit_flags_lo_configure,Configure System to Audit All Log In and Log Out Events
+V-252464,APPL-12-001003,audit_auditd_enabled,Enable Security Auditing
+V-252465,APPL-12-001010,audit_failure_halt,Configure System to Shut Down Upon Audit Failure
+V-252466,APPL-12-001012,audit_files_owner_configure,Configure Audit Log Files to be Owned by Root 
+V-252467,APPL-12-001013,audit_folder_owner_configure,Configure Audit Log Folders to be Owned by Root 
+V-252468,APPL-12-001014,audit_files_group_configure,Configure Audit Log Files Group to Wheel
+V-252469,APPL-12-001015,audit_folder_group_configure,Configure Audit Log Folders Group to Wheel
+V-252470,APPL-12-001016,audit_files_mode_configure,Configure Audit Log Files to Mode 440 or Less Permissive
+V-252471,APPL-12-001017,audit_folders_mode_configure,Configure Audit Log Folders to Mode 700 or Less Permissive
+V-252472,APPL-12-001020,audit_flags_fd_configure,Configure System to Audit All Deletions of Object Attributes
+V-252472,APPL-12-001020,audit_flags_fm_configure,Configure System to Audit All Changes of Object Attributes
+V-252472,APPL-12-001020,audit_flags_fr_configure,Configure System to Audit All Failed Read Actions on the System
+V-252472,APPL-12-001020,audit_flags_fw_configure,Configure System to Audit All Failed Write Actions on the System
+V-252473,APPL-12-001029,audit_retention_configure,Configure Audit Retention to $ODV
+V-252474,APPL-12-001030,audit_configure_capacity_notify,Configure Audit Capacity Warning
+V-252475,APPL-12-001031,audit_settings_failure_notify,Configure Audit Failure Notification
+V-252476,APPL-12-001044,audit_flags_aa_configure,Configure System to Audit All Authorization and Authentication Events
+V-252477,APPL-12-001060,auth_smartcard_certificate_trust_enforce_moderate,Set Smartcard Certificate Trust to Moderate
+V-252478,APPL-12-001100,os_sshd_permit_root_login_configure,Disable Root Login for SSH
+V-252479,APPL-12-002001,sysprefs_smbd_disable,Disable Server Message Block Sharing
+V-252480,APPL-12-002003,os_nfsd_disable,Disable Network File System Service
+V-252481,APPL-12-002004,sysprefs_location_services_disable,Disable Location Services
+V-252482,APPL-12-002005,os_bonjour_disable,Disable Bonjour Multicast
+V-252483,APPL-12-002006,os_uucp_disable,Disable Unix-to-Unix Copy Protocol Service
+V-252484,APPL-12-002007,sysprefs_internet_sharing_disable,Disable Internet Sharing
+V-252485,APPL-12-002008,os_httpd_disable,Disable the Built-in Web Server
+V-252486,APPL-12-002009,os_airdrop_disable,Disable AirDrop
+V-252487,APPL-12-002012,icloud_calendar_disable,Disable the iCloud Calendar Services
+V-252488,APPL-12-002013,icloud_reminders_disable,Disable iCloud Reminders
+V-252489,APPL-12-002014,icloud_addressbook_disable,Disable iCloud Address Book
+V-252490,APPL-12-002015,icloud_mail_disable,Disable iCloud Mail
+V-252491,APPL-12-002016,icloud_notes_disable,Disable iCloud Notes
+V-252492,APPL-12-002017,os_camera_disable,Disable Camera
+V-252493,APPL-12-002020,sysprefs_siri_disable,Disable Siri
+V-252494,APPL-12-002021,sysprefs_diagnostics_reports_disable,Disable Sending Diagnostic and Usage Data to Apple
+V-252495,APPL-12-002022,sysprefs_rae_disable,Disable Remote Apple Events
+V-252496,APPL-12-002031,icloud_appleid_prefpane_disable,Disable the System Preference Pane for Apple ID
+V-252497,APPL-12-002032,sysprefs_internet_accounts_prefpane_hide,Hide the Internet Accounts System Preference Pane
+V-252497,APPL-12-002032,sysprefs_internet_accounts_prefpane_disable,Disable the Internet Accounts System Preference Pane
+V-252498,APPL-12-002035,os_appleid_prompt_disable,Disable Apple ID Setup during Setup Assistant
+V-252499,APPL-12-002036,os_privacy_setup_prompt_disable,Disable Privacy Setup Services During Setup Assistant
+V-252500,APPL-12-002037,os_icloud_storage_prompt_disable,Disable iCloud Storage Setup during Setup Assistant 
+V-252501,APPL-12-002038,os_tftpd_disable,Disable Trivial File Transfer Protocol Service
+V-252502,APPL-12-002039,os_siri_prompt_disable,Disable Siri Setup during Setup Assistant
+V-252503,APPL-12-002040,icloud_keychain_disable,Disable iCloud Keychain Sync
+V-252504,APPL-12-002041,icloud_drive_disable,Disable iCloud Document Sync
+V-252505,APPL-12-002042,icloud_bookmarks_disable,Disable iCloud Bookmarks
+V-252506,APPL-12-002043,icloud_photos_disable,Disable iCloud Photo Library
+V-252507,APPL-12-002050,sysprefs_screen_sharing_disable,Disable Screen Sharing and Apple Remote Desktop
+V-252508,APPL-12-002051,sysprefs_touchid_prefpane_hide,Hide the System Preference Pane for Touch ID
+V-252508,APPL-12-002051,sysprefs_touchid_prefpane_disable,Disable the System Preference Pane for Touch ID
+V-252509,APPL-12-002052,sysprefs_wallet_applepay_prefpane_hide,Hide the System Preference Pane for Wallet and Apple Pay
+V-252509,APPL-12-002052,sysprefs_wallet_applepay_prefpane_disable,Disable the System Preference Pane for Wallet and Apple Pay
+V-252510,APPL-12-002053,sysprefs_siri_prefpane_disable,Disable the System Preference Pane for Siri
+V-252510,APPL-12-002053,sysprefs_siri_prefpane_hide,Hide the System Preference Pane for Siri
+V-252511,APPL-12-002060,sysprefs_gatekeeper_identified_developers_allowed,Apply Gatekeeper Settings to Block Applications from Unidentified Developers
+V-252511,APPL-12-002062,sysprefs_bluetooth_prefpane_disable,Disable the Bluetooth System Preference Pane
+V-252511,APPL-12-002062,sysprefs_bluetooth_prefpane_hide,Hide the Bluetooth System Preference Pane
+V-252512,APPL-12-002062,sysprefs_bluetooth_disable,Disable Bluetooth When no Approved Device is Connected
+V-252513,APPL-12-002063,sysprefs_guest_account_disable,Disable the Guest Account
+V-252514,APPL-12-002064,os_gatekeeper_enable,Enable Gatekeeper
+V-252515,APPL-12-002066,sysprefs_automatic_login_disable,Disable Unattended or Automatic Logon to the System
+V-252516,APPL-12-002068,os_home_folders_secure,Secure User's Home Folders
+V-252517,APPL-12-002069,sysprefs_system_wide_preferences_configure,Require Administrator Password to Modify System-Wide Preferences
+V-252518,APPL-12-002070,os_anti_virus_installed,Must Use an Approved Antivirus Program
+V-252518,APPL-12-002070,os_config_data_install_enforce,Enforce Installation of XProtect and Gatekeeper Updates Automatically
+V-252519,APPL-12-003001,os_certificate_authority_trust,Issue or Obtain Public Key Certificates from an Approved Service Provider
+V-252520,APPL-12-003007,pwpolicy_alpha_numeric_enforce,Require Passwords Contain a Minimum of One Numeric Character
+V-252521,APPL-12-003008,pwpolicy_max_lifetime_enforce,Restrict Maximum Password Lifetime to $ODV Days
+V-252522,APPL-12-003009,pwpolicy_history_enforce,Prohibit Password Reuse for a Minimum of $ODV Generations
+V-252523,APPL-12-003010,pwpolicy_minimum_length_enforce,Require a Minimum Password Length of $ODV Characters
+V-252524,APPL-12-003011,pwpolicy_special_character_enforce,Require Passwords Contain a Minimum of One Special Character
+V-252525,APPL-12-003012,sysprefs_password_hints_disable,Disable Password Hints
+V-252526,APPL-12-003013,os_firmware_password_require,Enable Firmware Password
+V-252527,APPL-12-003020,auth_smartcard_enforce,Enforce Smartcard Authentication
+V-252528,APPL-12-003050,auth_pam_login_smartcard_enforce,Enforce Multifactor Authentication for Login
+V-252529,APPL-12-003051,auth_pam_su_smartcard_enforce,Enforce Multifactor Authentication for the su Command
+V-252530,APPL-12-003052,auth_pam_sudo_smartcard_enforce,Enforce Multifactor Authentication for Privilege Escalation Through the sudo Command
+V-252531,APPL-12-004001,os_newsyslog_files_owner_group_configure,Configure System Log Files Owned by Root and Group to Wheel
+V-252531,APPL-12-004001,os_asl_log_files_owner_group_configure,Configure Apple System Log Files Owned by Root and Group to Wheel
+V-252532,APPL-12-004002,os_asl_log_files_permissions_configure,Configure Apple System Log Files To Mode 640 or Less Permissive
+V-252532,APPL-12-004002,os_newsyslog_files_permissions_configure,Configure System Log Files to Mode 640 or Less Permissive
+V-252533,APPL-12-004021,os_sudoers_timestamp_type_configure,Configure Sudoers Timestamp Type
+V-252534,APPL-12-005001,os_sip_enable,Ensure System Integrity Protection is Enabled
+V-252535,APPL-12-005020,sysprefs_filevault_enforce,Enforce FileVault
+V-252536,APPL-12-005050,sysprefs_firewall_stealth_mode_enable,Enable Firewall Stealth Mode
+V-252536,APPL-12-005050,sysprefs_firewall_enable,Enable macOS Application Firewall
+V-252537,APPL-12-005051,os_dvdram_disable,Disable DVD-RAM
+V-252537,APPL-12-005051,os_blank_bluray_disable,Disable Blank Blu Ray
+V-252537,APPL-12-005051,os_disk_image_disable,Disable Disk Images
+V-252537,APPL-12-005051,os_blank_cd_disable,Disable Blank CD
+V-252537,APPL-12-005051,os_blank_dvd_disable,Disable Blank DVD
+V-252537,APPL-12-005051,os_removable_media_disable,Disable Removable Storage Devices
+V-252537,APPL-12-005051,os_bluray_read_only_enforce,Enforce Blu Ray Read Only
+V-252537,APPL-12-005051,os_cd_read_only_enforce,Enforce CD Read Only
+V-252538,APPL-12-005052,sysprefs_loginwindow_prompt_username_password_enforce,Configure Login Window to Prompt for Username and Password
+V-252539,APPL-12-005053,os_burn_support_disable,Disable Burn Support
+V-252540,APPL-12-005054,os_touchid_prompt_disable,Disable TouchID Prompt during Setup Assistant
+V-252541,APPL-12-005055,os_skip_screen_time_prompt_enable,Disable Screen Time Prompt During Setup Assistant
+V-252542,APPL-12-005056,os_skip_unlock_with_watch_enable,Disable Unlock with Apple Watch During Setup Assistant
+V-252543,APPL-12-005058,os_handoff_disable,Disable Handoff
+V-252544,APPL-12-005060,os_password_proximity_disable,Disable Proximity Based Password Sharing Requests
+V-252545,APPL-12-005061,os_erase_content_and_settings_disable,Disable Erase Content and Settings
+N/A,N/A,auth_smartcard_allow,Allow Smartcard Authentication
+N/A,N/A,auth_smartcard_certificate_trust_enforce_high,Set Smartcard Certificate Trust to High
+N/A,N/A,auth_ssh_password_authentication_disable,Disable Password Authentication for SSH
+N/A,N/A,supplemental_firewall_pf,Packet Filter (pf) Supplemental
+N/A,N/A,supplemental_filevault,FileVault Supplemental
+N/A,N/A,supplemental_password_policy,Password Policy Supplemental
+N/A,N/A,supplemental_cis_manual,CIS Manual Recommendations
+N/A,N/A,supplemental_controls,Out of Scope Supplemental
+N/A,N/A,supplemental_smartcard,Smartcard Supplemental
+N/A,N/A,audit_record_reduction_report_generation,Audit Record Reduction and Report Generation
+N/A,N/A,audit_flags_fm_failed_configure,Configure System to Audit All Failed Change of Object Attributes
+N/A,N/A,audit_off_load_records,Off-Load Audit Records
+N/A,N/A,audit_records_processing,Audit Record Reduction and Report Generation
+N/A,N/A,audit_control_mode_configure,Configure Audit_Control Owner to Mode 440 or Less Permissive
+N/A,N/A,audit_flags_ex_configure,Configure System to Audit All Failed Program Execution on the System
+N/A,N/A,audit_control_owner_configure,Configure Audit_Control Owner to Root
+N/A,N/A,audit_enforce_dual_auth,Enforce Dual Authorization for Movement and Deletion of Audit Information
+N/A,N/A,audit_control_acls_configure,Configure Audit_Control to Not Contain Access Control Lists
+N/A,N/A,audit_alert_processing_fail,Alert Audit Processing Failure
+N/A,N/A,audit_control_group_configure,Configure Audit_Control Group to Wheel
+N/A,N/A,os_enforce_access_restrictions,Enforce Access Restrictions
+N/A,N/A,os_information_validation,Information Input Validation
+N/A,N/A,os_privacy_principle_minimization,Implement the Privacy Principle of Minimization
+N/A,N/A,os_limit_gui_sessions,Limit Concurrent GUI Sessions to 10 for all Accounts
+N/A,N/A,os_firewall_default_deny_require,Control Connections to Other Systems via a Deny-All and Allow-by-Exception Firewall Policy
+N/A,N/A,os_access_control_mobile_devices,Access Control for Mobile Devices
+N/A,N/A,os_prevent_priv_functions,Configure the System to Block Non-Privileged Users from Executing Privileged Functions
+N/A,N/A,os_sshd_fips_compliant,Limit SSHD to FIPS Compliant Connections
+N/A,N/A,os_safari_warn_fraudulent_website_enable,Ensure Warn When Visiting A Fradulent Website in Safari Is Enabled
+N/A,N/A,os_gatekeeper_rearm,Enforce Gatekeeper 30 Day Automatic Rearm
+N/A,N/A,os_root_disable,Disable Root Login
+N/A,N/A,os_reauth_devices_change_authenticators,Require Devices to Reauthenticate when Changing Authenticators
+N/A,N/A,os_notify_account_enable,Configure the System to Notify upon Account Enabled Actions 
+N/A,N/A,os_logical_access,Enforce Approved Authorization for Logical Access
+N/A,N/A,os_library_validation_enabled,Enable Library Validation
+N/A,N/A,os_mdm_require,Enforce Enrollment in Mobile Device Management
+N/A,N/A,os_provide_automated_account_management,Employ Automated Mechanisms for Account Management Functions
+N/A,N/A,os_verify_remote_disconnection,Verify remote disconnection of sessions
+N/A,N/A,os_secure_name_resolution,Secure Name Address Resolution Service
+N/A,N/A,os_logoff_capability_and_message,Display logoff capability and message to prevent exploitation
+N/A,N/A,os_fail_secure_state,"Configure System to Fail to a Known Safe State if System Initialization, Shutdown, or Abort Fails"
+N/A,N/A,os_world_writable_system_folder_configure,Ensure No World Writable Files Exist in the System Folder
+N/A,N/A,os_efi_integrity_validated,Ensure Extensible Firmware Interface Version is Valid
+N/A,N/A,os_notify_account_created,Configure the System to Notify upon Account Created Actions
+N/A,N/A,os_application_sandboxing,Ensure Seperate Execution Domain for Processes
+N/A,N/A,os_limit_auditable_events,Only allow authorized users to select auditable events
+N/A,N/A,os_prevent_priv_execution,Prevent Software From Executing at Higher Privilege Levels than Users Executing The Software
+N/A,N/A,os_safari_open_safe_downloads_disable,Disable Automatic Opening of Safe Files in Safari
+N/A,N/A,os_firewall_log_enable,Enable Firewall Logging
+N/A,N/A,os_ssh_server_alive_interval_configure,Configure SSH ServerAliveInterval option set to $ODV
+N/A,N/A,os_ssh_fips_compliant,Limit SSH to FIPS Compliant Connections
+N/A,N/A,os_notify_account_modified,Configure the System to Notify upon Account Modified Actions
+N/A,N/A,os_notify_account_removal,Configure the System to Notify upon Account Removed Actions
+N/A,N/A,os_allow_info_passed,Allow Information Transfer with Other Operating Systems
+N/A,N/A,os_mfa_network_non-priv,Enforce multifactor authentication for network access to non-privileged accounts
+N/A,N/A,os_remove_software_components_after_updates,Must remove all software components after updated versions installed
+N/A,N/A,os_time_offset_limit_configure,Ensure Time Offset Within Limits
+N/A,N/A,os_password_autofill_disable,Disable Password Autofill
+N/A,N/A,os_implement_memory_protection,Configure the System to Protect Memory from Unauthorized Code Execution
+N/A,N/A,os_implement_cryptography,Configure the System to Implement Approved Cryptography to Protect Information
+N/A,N/A,os_remote_access_methods,Control remote access methods
+N/A,N/A,os_password_sharing_disable,Disable Password Sharing
+N/A,N/A,os_separate_functionality,Configure the System to Separate User and System Functionality
+N/A,N/A,os_obscure_password,Obscure Passwords
+N/A,N/A,os_authenticated_root_enable,Enable Authenticated Root
+N/A,N/A,os_prohibit_remote_activation_collab_devices,Prohibit Remote Activation of Collaborative Computing Devices
+N/A,N/A,os_safari_advertising_privacy_protection_enable,Ensure Advertising Privacy Protection in Safari Is Enabled
+N/A,N/A,os_predictable_behavior,Must behave in predictable and documented manner
+N/A,N/A,os_reauth_users_change_authenticators,Require users to reauthenticate when changing authenticators
+N/A,N/A,os_map_pki_identity,Map identity for PKI based authentication
+N/A,N/A,os_show_filename_extensions_enable,Enable Show All Filename Extensions
+N/A,N/A,os_managed_access_control_points,Managed Access Control Points
+N/A,N/A,os_guest_folder_removed,Remove Guest Folder if Present
+N/A,N/A,os_secure_enclave,Protected Storage for Cryptographic Keys
+N/A,N/A,os_password_hint_remove,Remove Password Hint From User Accounts
+N/A,N/A,os_auth_peripherals,Must authenticate peripherals before establishing a connection
+N/A,N/A,os_limit_dos_attacks,Limit Impact of Denial of Service Attacks
+N/A,N/A,os_secure_boot_verify,Ensure Secure Boot Level Set to Full
+N/A,N/A,os_pii_deidentification,Remove Elements of Personally Identifiable Information from Datasets
+N/A,N/A,os_user_app_installation_prohibit,Prohibit User Installation of Software into /Users/
+N/A,N/A,os_continuous_monitoring,Configure Automated Flaw Remediation
+N/A,N/A,os_unique_identification,Uniquely Identify Users and Processes
+N/A,N/A,os_notify_account_disabled,Configure the System to Notify upon Account Disabled Actions
+N/A,N/A,os_provide_disconnect_remote_access,Provide Ability to Disconnect or Disable Remote Access
+N/A,N/A,os_isolate_security_functions,Configure the System to Separate User and System Functionality
+N/A,N/A,os_messages_app_disable,Disable Messages App
+N/A,N/A,os_required_crypto_module,"Ensure all Federal Laws, Executive Orders, Directives, Policies, Regulations, Standards, and Guidance for Authentication to a Cryptographic Module are Met"
+N/A,N/A,os_malicious_code_prevention,Ensure the System Implements Malicious Code Protection Mechanisms
+N/A,N/A,os_grant_privs,Allow Administrators to Promote Other Users to Administrator Status
+N/A,N/A,os_store_encrypted_passwords,Encrypt Stored Passwords
+N/A,N/A,os_parental_controls_enable,Enable Parental Controls
+N/A,N/A,os_prevent_unauthorized_disclosure,Configure the System to Prevent the Unauthorized Disclosure of Data via Shared Resources
+N/A,N/A,os_terminate_session,Terminate all sessions and network connections when maintenance is completed
+N/A,N/A,os_system_read_only,Ensure System Volume is Read Only
+N/A,N/A,os_ssh_server_alive_count_max_configure,Set SSH Active Server Alive Maximum to $ODV
+N/A,N/A,os_hibernate_mode_destroyfvkeyonstandby_enable,Enable DestroyFVKeyOnStandby on Hibernate
+N/A,N/A,os_change_security_attributes,Allow Administrators to Modify Security Settings and System Attributes
+N/A,N/A,os_nonlocal_maintenance,Configure the System for Nonlocal Maintenance
+N/A,N/A,os_mfa_network_access,Enforce multifactor authentication for network access to privileged accounts
+N/A,N/A,os_identify_non-org_users,Configure the System to Uniquely Identify and Authenticate Non-Organizational Users
+N/A,N/A,os_recovery_lock_enable,Enable Recovery Lock
+N/A,N/A,os_safari_show_full_website_address_enable,Ensure Show Full Website Address in Safari Is Enabled
+N/A,N/A,os_mobile_file_integrity_enable,Enable Apple Mobile File Integrity
+N/A,N/A,os_world_writable_library_folder_configure,Ensure No World Writable Files Exist in the Library Folder
+N/A,N/A,os_terminal_secure_keyboard_enable,Ensure Secure Keyboard Entry Terminal.app is Enabled
+N/A,N/A,os_peripherals_identify,The macOS system must uniquely identify peripherals before establishing a connection.
+N/A,N/A,os_unlock_active_user_session_disable,Disable Login to Other User's Active and Locked Sessions
+N/A,N/A,os_protect_dos_attacks,Protect Against Denial of Service Attacks by Ensuring Rate-Limiting Measures on Network Interfaces
+N/A,N/A,os_hibernate_mode_enable,Enable Hibernate Mode
+N/A,N/A,os_sudo_timeout_configure,Configure Sudo Timeout Period to $ODV
+N/A,N/A,os_error_message,Generate Error Messages without Exploitable Information
+N/A,N/A,os_pii_quality_control,Personally Identifiable Information Quality Operations
+N/A,N/A,os_crypto_audit,Protect Audit Integrity with Cryptographic Mechanisms
+N/A,N/A,os_reauth_privilege,Require users to reauthenticate for privilege escalation
+N/A,N/A,os_system_wide_applications_configure,Ensure Appropriate Permissions Are Enabled for System Wide Applications
+N/A,N/A,os_software_update_deferral,Ensure Software Update Deferment Is Less Than or Equal to 30 Days
+N/A,N/A,os_facetime_app_disable,Disable FaceTime.app
+N/A,N/A,os_install_log_retention_configure,Configure Install.log Retention to $ODV
+N/A,N/A,os_safari_prevent_cross-site_tracking_enable,Ensure Prevent Cross-site Tracking in Safari Is Enabled
+N/A,N/A,os_mail_app_disable,Disable Mail App
+N/A,N/A,os_non_repudiation,Non-Repudiation
+N/A,N/A,os_notify_unauthorized_baseline_change,Configure the System to Notify upon Baseline Configuration Changes
+N/A,N/A,os_calendar_app_disable,Disable Calendar.app
+N/A,N/A,pwpolicy_account_inactivity_enforce,Disable Accounts after $ODV Days of Inactivity
+N/A,N/A,pwpolicy_50_percent,Require a Minimum of Fifty Percent Character Change in New Passwords
+N/A,N/A,pwpolicy_temporary_accounts_disable,Automatically Remove or Disable Temporary User Accounts within 72 Hours
+N/A,N/A,pwpolicy_simple_sequence_disable,"Prohibit Repeating, Ascending, and Descending Character Sequences"
+N/A,N/A,pwpolicy_force_password_change,Force Password Change at Next Logon
+N/A,N/A,pwpolicy_lower_case_character_enforce,Require Passwords Contain a Minimum of One Lowercase Character
+N/A,N/A,pwpolicy_emergency_accounts_disable,Automatically Remove or Disable Emergency Accounts within 72 Hours
+N/A,N/A,pwpolicy_upper_case_character_enforce,Require Passwords Contain a Minimum of One Uppercase Character
+N/A,N/A,pwpolicy_prevent_dictionary_words,Prevent the Use of Dictionary Words for Passwords
+N/A,N/A,pwpolicy_minimum_lifetime_enforce,Set Minimum Password Lifetime to $ODV Hours
+N/A,N/A,icloud_sync_disable,Disable iCloud Desktop and Document Folder Sync
+N/A,N/A,icloud_private_relay_disable,Disable iCloud Private Relay
+N/A,N/A,sysprefs_printer_sharing_disable,Disable Printer Sharing
+N/A,N/A,sysprefs_automatic_logout_enforce,Enforce Auto Logout After $ODV Seconds of Inactivity
+N/A,N/A,sysprefs_time_machine_encrypted_configure,Ensure Time Machine Volumes are Encrypted
+N/A,N/A,sysprefs_hot_corners_secure,Secure Hot Corners
+N/A,N/A,sysprefs_software_update_download_enforce,Enforce Software Update Downloads Updates Automatically
+N/A,N/A,sysprefs_software_update_app_update_enforce,Enforce Software Update App Update Updates Automatically
+N/A,N/A,sysprefs_personalized_advertising_disable,Disable Personalized Advertising
+N/A,N/A,sysprefs_ssh_enable,Enable SSH Server for Remote Access Sessions
+N/A,N/A,sysprefs_guest_access_smb_disable,Disable Guest Access to Shared SMB Folders
+N/A,N/A,sysprefs_media_sharing_disabled,Disable Media Sharing
+N/A,N/A,sysprefs_location_services_enable,Enable Location Services
+N/A,N/A,sysprefs_critical_update_install_enforce,Enforce Critical Security Updates to be Installed
+N/A,N/A,sysprefs_bluetooth_menu_enable,Enable Bluetooth Menu
+N/A,N/A,sysprefs_remote_management_disable,Disable Remote Management
+N/A,N/A,sysprefs_gatekeeper_override_disallow,Configure Gatekeeper to Disallow End User Override
+N/A,N/A,sysprefs_software_update_enforce,Enforce Software Update Automatically
+N/A,N/A,sysprefs_find_my_disable,Disable Find My Service
+N/A,N/A,sysprefs_content_caching_disable,Disable Content Caching Service
+N/A,N/A,sysprefs_time_machine_auto_backup_enable,Configure Time Machine for Automatic Backups
+N/A,N/A,sysprefs_wake_network_access_disable,Ensure Wake for Network Access Is Disabled
+N/A,N/A,sysprefs_power_nap_disable,Disable Power Nap
+N/A,N/A,sysprefs_wifi_menu_enable,Enable Wifi Menu
+N/A,N/A,sysprefs_wifi_disable_when_connected_to_ethernet,Disable Wi-Fi When Connected to Ethernet
+N/A,N/A,sysprefs_wifi_disable,Disable Wi-Fi Interface
+N/A,N/A,sysprefs_loginwindow_loginwindowtext_enable,Configure Login Window to Show A Custom Message
+N/A,N/A,sysprefs_cd_dvd_sharing_disable,Disable CD/DVD Sharing
+N/A,N/A,sysprefs_airplay_receiver_disable,Disable Airplay Receiver
+N/A,N/A,sysprefs_softwareupdate_current,Ensure Software Update is Updated and Current
+N/A,N/A,sysprefs_touchid_unlock_disable,Disable TouchID for Unlocking the Device
+N/A,N/A,sysprefs_bluetooth_unpaired_disable,Disable Bluetooth When No Devices are Paired
+N/A,N/A,sysprefs_install_macos_updates_enforce,Enforce macOS Updates are Automatically Installed
+N/A,N/A,sysprefs_bluetooth_sharing_disable,Disable Bluetooth Sharing
+N/A,N/A,sysprefs_improve_siri_dictation_disable,Disable Sending Siri and Dictation Information to Apple
