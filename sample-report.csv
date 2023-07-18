@@ -51,7 +51,6 @@ failed,V-252537,APPL-12-005051,os_disk_image_disable,Disable Disk Images
 failed,V-252537,APPL-12-005051,os_dvdram_disable,Disable DVD-RAM
 failed,V-252545,APPL-12-005061,os_erase_content_and_settings_disable,Disable Erase Content and Settings
 failed,V-252455,APPL-12-000033,os_filevault_autologin_disable,Disable FileVault Automatic Login
-does,V-252526,APPL-12-003013,os_firmware_password_require,Enable Firmware Password
 passed,V-252514,APPL-12-002064,os_gatekeeper_enable,Enable Gatekeeper
 failed,V-252543,APPL-12-005058,os_handoff_disable,Disable Handoff
 passed,V-252485,APPL-12-002008,os_httpd_disable,Disable the Built-in Web Server
@@ -66,7 +65,7 @@ failed,V-252450,APPL-12-000024,os_policy_banner_ssh_enforce,Enforce SSH to Displ
 failed,V-252499,APPL-12-002036,os_privacy_setup_prompt_disable,Disable Privacy Setup Services During Setup Assistant
 failed,V-252537,APPL-12-005051,os_removable_media_disable,Disable Removable Storage Devices
 failed,V-252441,APPL-12-000006,os_screensaver_loginwindow_enforce,Enforce Screen Saver at Login Window
-failed,passed,V-252534,APPL-12-005001,os_sip_enable,Ensure System Integrity Protection is Enabled
+failed,V-252534,APPL-12-005001,os_sip_enable,Ensure System Integrity Protection is Enabled
 failed,V-252502,APPL-12-002039,os_siri_prompt_disable,Disable Siri Setup during Setup Assistant
 failed,V-252541,APPL-12-005055,os_skip_screen_time_prompt_enable,Disable Screen Time Prompt During Setup Assistant
 failed,V-252542,APPL-12-005056,os_skip_unlock_with_watch_enable,Disable Unlock with Apple Watch During Setup Assistant
