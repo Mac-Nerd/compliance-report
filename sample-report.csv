@@ -90,4 +90,3 @@ failed,V-252521,APPL-12-003008,pwpolicy_max_lifetime_enforce,Restrict Maximum Pa
 failed,V-252523,APPL-12-003010,pwpolicy_minimum_length_enforce,Require a Minimum Password Length of $ODV Characters
 failed,N/A,N/A,pwpolicy_simple_sequence_disable,"Prohibit Repeating, Ascending, and Descending Character Sequences"
 failed,V-252524,APPL-12-003011,pwpolicy_special_character_enforce,Require Passwords Contain a Minimum of One Special Character
-failed,failed,failed,failed,failed,failed,failed,failed,failed,passed,failed,failed,failed,failed,failed,failed,failed,failed,failed,passed,failed,failed,failed,failed,failed,passed,failed,failed,failed,failed,failed,failed,failed,failed,
