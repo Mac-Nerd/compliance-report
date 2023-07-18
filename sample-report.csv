@@ -24,7 +24,7 @@ failed,N/A,N/A,auth_smartcard_allow,Allow Smartcard Authentication
 failed,V-252477,APPL-12-001060,auth_smartcard_certificate_trust_enforce_moderate,Set Smartcard Certificate Trust to Moderate
 failed,V-252527,APPL-12-003020,auth_smartcard_enforce,Enforce Smartcard Authentication
 failed,V-252489,APPL-12-002014,icloud_addressbook_disable,Disable iCloud Address Book
-failed,failed,V-252505,APPL-12-002042,icloud_bookmarks_disable,Disable iCloud Bookmarks
+failed,V-252505,APPL-12-002042,icloud_bookmarks_disable,Disable iCloud Bookmarks
 failed,V-252487,APPL-12-002012,icloud_calendar_disable,Disable the iCloud Calendar Services
 failed,V-252504,APPL-12-002041,icloud_drive_disable,Disable iCloud Document Sync
 failed,V-252503,APPL-12-002040,icloud_keychain_disable,Disable iCloud Keychain Sync
