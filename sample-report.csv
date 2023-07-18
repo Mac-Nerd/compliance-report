@@ -1,0 +1,93 @@
+passed,V-252452,APPL-12-000030,audit_acls_files_configure,Configure Audit Log Files to Not Contain Access Control Lists
+passed,V-252453,APPL-12-000031,audit_acls_folders_configure,Configure Audit Log Folder to Not Contain Access Control Lists
+passed,V-252464,APPL-12-001003,audit_auditd_enabled,Enable Security Auditing
+failed,V-252474,APPL-12-001030,audit_configure_capacity_notify,Configure Audit Capacity Warning
+failed,V-252465,APPL-12-001010,audit_failure_halt,Configure System to Shut Down Upon Audit Failure
+passed,V-252468,APPL-12-001014,audit_files_group_configure,Configure Audit Log Files Group to Wheel
+passed,V-252470,APPL-12-001016,audit_files_mode_configure,Configure Audit Log Files to Mode 440 or Less Permissive
+passed,V-252466,APPL-12-001012,audit_files_owner_configure,Configure Audit Log Files to be Owned by Root 
+passed,V-252476,APPL-12-001044,audit_flags_aa_configure,Configure System to Audit All Authorization and Authentication Events
+failed,V-252462,APPL-12-001001,audit_flags_ad_configure,Configure System to Audit All Administrative Action Events
+failed,V-252472,APPL-12-001020,audit_flags_fd_configure,Configure System to Audit All Deletions of Object Attributes
+failed,V-252472,APPL-12-001020,audit_flags_fm_configure,Configure System to Audit All Changes of Object Attributes
+failed,V-252472,APPL-12-001020,audit_flags_fr_configure,Configure System to Audit All Failed Read Actions on the System
+failed,V-252472,APPL-12-001020,audit_flags_fw_configure,Configure System to Audit All Failed Write Actions on the System
+passed,V-252463,APPL-12-001002,audit_flags_lo_configure,Configure System to Audit All Log In and Log Out Events
+passed,V-252469,APPL-12-001015,audit_folder_group_configure,Configure Audit Log Folders Group to Wheel
+passed,V-252467,APPL-12-001013,audit_folder_owner_configure,Configure Audit Log Folders to be Owned by Root 
+passed,V-252471,APPL-12-001017,audit_folders_mode_configure,Configure Audit Log Folders to Mode 700 or Less Permissive
+failed,V-252475,APPL-12-001031,audit_settings_failure_notify,Configure Audit Failure Notification
+failed,V-252528,APPL-12-003050,auth_pam_login_smartcard_enforce,Enforce Multifactor Authentication for Login
+failed,V-252529,APPL-12-003051,auth_pam_su_smartcard_enforce,Enforce Multifactor Authentication for the su Command
+failed,V-252530,APPL-12-003052,auth_pam_sudo_smartcard_enforce,Enforce Multifactor Authentication for Privilege Escalation Through the sudo Command
+failed,N/A,N/A,auth_smartcard_allow,Allow Smartcard Authentication
+failed,V-252477,APPL-12-001060,auth_smartcard_certificate_trust_enforce_moderate,Set Smartcard Certificate Trust to Moderate
+failed,V-252527,APPL-12-003020,auth_smartcard_enforce,Enforce Smartcard Authentication
+failed,V-252489,APPL-12-002014,icloud_addressbook_disable,Disable iCloud Address Book
+failed,failed,V-252505,APPL-12-002042,icloud_bookmarks_disable,Disable iCloud Bookmarks
+failed,V-252487,APPL-12-002012,icloud_calendar_disable,Disable the iCloud Calendar Services
+failed,V-252504,APPL-12-002041,icloud_drive_disable,Disable iCloud Document Sync
+failed,V-252503,APPL-12-002040,icloud_keychain_disable,Disable iCloud Keychain Sync
+failed,V-252490,APPL-12-002015,icloud_mail_disable,Disable iCloud Mail
+failed,V-252491,APPL-12-002016,icloud_notes_disable,Disable iCloud Notes
+failed,V-252506,APPL-12-002043,icloud_photos_disable,Disable iCloud Photo Library
+failed,V-252488,APPL-12-002013,icloud_reminders_disable,Disable iCloud Reminders
+failed,V-252486,APPL-12-002009,os_airdrop_disable,Disable AirDrop
+passed,V-252518,APPL-12-002070,os_anti_virus_installed,Must Use an Approved Antivirus Program
+failed,V-252498,APPL-12-002035,os_appleid_prompt_disable,Disable Apple ID Setup during Setup Assistant
+passed,V-252531,APPL-12-004001,os_asl_log_files_owner_group_configure,Configure Apple System Log Files Owned by Root and Group to Wheel
+failed,V-252532,APPL-12-004002,os_asl_log_files_permissions_configure,Configure Apple System Log Files To Mode 640 or Less Permissive
+failed,V-252537,APPL-12-005051,os_blank_bluray_disable,Disable Blank Blu Ray
+failed,V-252537,APPL-12-005051,os_blank_cd_disable,Disable Blank CD
+failed,V-252537,APPL-12-005051,os_blank_dvd_disable,Disable Blank DVD
+failed,V-252537,APPL-12-005051,os_bluray_read_only_enforce,Enforce Blu Ray Read Only
+failed,V-252482,APPL-12-002005,os_bonjour_disable,Disable Bonjour Multicast
+failed,V-252539,APPL-12-005053,os_burn_support_disable,Disable Burn Support
+failed,V-252492,APPL-12-002017,os_camera_disable,Disable Camera
+failed,V-252537,APPL-12-005051,os_cd_read_only_enforce,Enforce CD Read Only
+failed,V-252518,APPL-12-002070,os_config_data_install_enforce,Enforce Installation of XProtect and Gatekeeper Updates Automatically
+failed,V-252447,APPL-12-000016,os_directory_services_configured,Integrate System into a Directory Services Infrastructure
+failed,V-252537,APPL-12-005051,os_disk_image_disable,Disable Disk Images
+failed,V-252537,APPL-12-005051,os_dvdram_disable,Disable DVD-RAM
+failed,V-252545,APPL-12-005061,os_erase_content_and_settings_disable,Disable Erase Content and Settings
+failed,V-252455,APPL-12-000033,os_filevault_autologin_disable,Disable FileVault Automatic Login
+does,V-252526,APPL-12-003013,os_firmware_password_require,Enable Firmware Password
+passed,V-252514,APPL-12-002064,os_gatekeeper_enable,Enable Gatekeeper
+failed,V-252543,APPL-12-005058,os_handoff_disable,Disable Handoff
+passed,V-252485,APPL-12-002008,os_httpd_disable,Disable the Built-in Web Server
+failed,V-252500,APPL-12-002037,os_icloud_storage_prompt_disable,Disable iCloud Storage Setup during Setup Assistant 
+passed,V-252531,APPL-12-004001,os_newsyslog_files_owner_group_configure,Configure System Log Files Owned by Root and Group to Wheel
+passed,V-252532,APPL-12-004002,os_newsyslog_files_permissions_configure,Configure System Log Files to Mode 640 or Less Permissive
+failed,V-252480,APPL-12-002003,os_nfsd_disable,Disable Network File System Service
+failed,V-252544,APPL-12-005060,os_password_proximity_disable,Disable Proximity Based Password Sharing Requests
+failed,V-252451,APPL-12-000025,os_policy_banner_loginwindow_enforce,Display Policy Banner at Login Window
+failed,V-252449,APPL-12-000023,os_policy_banner_ssh_configure,Display Policy Banner at Remote Login
+failed,V-252450,APPL-12-000024,os_policy_banner_ssh_enforce,Enforce SSH to Display Policy Banner
+failed,V-252499,APPL-12-002036,os_privacy_setup_prompt_disable,Disable Privacy Setup Services During Setup Assistant
+failed,V-252537,APPL-12-005051,os_removable_media_disable,Disable Removable Storage Devices
+failed,V-252441,APPL-12-000006,os_screensaver_loginwindow_enforce,Enforce Screen Saver at Login Window
+failed,passed,V-252534,APPL-12-005001,os_sip_enable,Ensure System Integrity Protection is Enabled
+failed,V-252502,APPL-12-002039,os_siri_prompt_disable,Disable Siri Setup during Setup Assistant
+failed,V-252541,APPL-12-005055,os_skip_screen_time_prompt_enable,Disable Screen Time Prompt During Setup Assistant
+failed,V-252542,APPL-12-005056,os_skip_unlock_with_watch_enable,Disable Unlock with Apple Watch During Setup Assistant
+failed,V-252457,APPL-12-000052,os_sshd_client_alive_count_max_configure,Configure SSHD ClientAliveCountMax to $ODV
+failed,V-252456,APPL-12-000051,os_sshd_client_alive_interval_configure,Configure SSHD ClientAliveInterval to $ODV
+failed,V-252459,APPL-12-000054,os_sshd_fips_140_ciphers,Limit SSHD to FIPS 140 Validated Ciphers
+failed,V-252460,APPL-12-000055,os_sshd_fips_140_macs,Limit SSHD to FIPS 140 Validated Message Authentication Code Algorithms
+failed,V-252461,APPL-12-000056,os_sshd_key_exchange_algorithm_configure,Configure SSHD to Use Secure Key Exchange Algorithms
+failed,V-252458,APPL-12-000053,os_sshd_login_grace_time_configure,Set Login Grace Time to $ODV
+failed,V-252478,APPL-12-001100,os_sshd_permit_root_login_configure,Disable Root Login for SSH
+failed,N/A,N/A,os_sudo_timeout_configure,Configure Sudo Timeout Period to $ODV
+failed,V-252501,APPL-12-002038,os_tftpd_disable,Disable Trivial File Transfer Protocol Service
+passed,V-252445,APPL-12-000014,os_time_server_enabled,Enable Time Synchronization Daemon
+failed,V-252540,APPL-12-005054,os_touchid_prompt_disable,Disable TouchID Prompt during Setup Assistant
+failed,V-252483,APPL-12-002006,os_uucp_disable,Disable Unix-to-Unix Copy Protocol Service
+failed,V-252448,APPL-12-000022,pwpolicy_account_lockout_enforce,Limit Consecutive Failed Login Attempts to $ODV
+failed,V-252448,APPL-12-000022,pwpolicy_account_lockout_timeout_enforce,Set Account Lockout Time to $ODV Minutes
+failed,V-252520,APPL-12-003007,pwpolicy_alpha_numeric_enforce,Require Passwords Contain a Minimum of One Numeric Character
+failed,V-252522,APPL-12-003009,pwpolicy_history_enforce,Prohibit Password Reuse for a Minimum of $ODV Generations
+failed,V-252521,APPL-12-003008,pwpolicy_max_lifetime_enforce,Restrict Maximum Password Lifetime to $ODV Days
+failed,V-252523,APPL-12-003010,pwpolicy_minimum_length_enforce,Require a Minimum Password Length of $ODV Characters
+failed,N/A,N/A,pwpolicy_simple_sequence_disable,"Prohibit Repeating, Ascending, and Descending Character Sequences"
+failed,V-252524,APPL-12-003011,pwpolicy_special_character_enforce,Require Passwords Contain a Minimum of One Special Character
+failed,failed,failed,failed,failed,failed,failed,failed,failed,passed,failed,failed,failed,failed,failed,failed,failed,failed,failed,passed,failed,failed,failed,failed,failed,passed,failed,failed,failed,failed,failed,failed,failed,failed,
